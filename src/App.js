@@ -30,7 +30,7 @@ function App() {
 
   return (
     <>
-      <Perf position="top-left" />
+      // <Perf position="top-left" />
 
       <OrbitControls makeDefault />
 
