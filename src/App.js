@@ -1,6 +1,5 @@
 import "./index.css";
 import { OrbitControls } from "@react-three/drei";
-// import { Perf } from "r3f-perf";
 import { Text3D, Center, useMatcapTexture } from "@react-three/drei";
 import font from "./fonts/helvetiker_regular.typeface.json";
 import * as THREE from "three";
@@ -30,7 +29,6 @@ function App() {
 
   return (
     <>
-      // <Perf position="top-left" />
 
       <OrbitControls makeDefault />
 
